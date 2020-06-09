@@ -1,0 +1,237 @@
+/*Estilo general de la pagina*/
+
+body{
+	font: 15px Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 100px;
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	background-color: #f4f4f4;	 
+}
+
+
+/*Estilos globales*/
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;	
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.boton1{
+	height: 30px;
+	background-color: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff;
+}
+
+
+/*Encabezados*/
+header{
+	width: 100%;	
+	background-color: #24282b;
+	color: #fff;
+	padding-top: 50px;
+	border-bottom: 5px solid #1293d4;		
+	box-shadow: 2px 0px 7px #000;	
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #marca{
+	float: left;	
+}
+
+header #marca h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;	
+}
+
+header .resaltado, header .actual a{
+	color: #1293d4;
+	font-weight: bold;	
+}
+
+header a:hover{
+	color: #ccc;
+	font-weight: bold;
+}
+
+/*cabecera con imagen*/
+#cabecera{
+	min-height: 400px;
+	background: url('../assets/img/umg2.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+	text-align: center;
+	color: #24282b;		
+
+}
+
+#cabecera{
+	margin-top: 0;
+	font-size: 25px;
+	margin-bottom: 0;		
+}
+
+#cabecera p{
+	font-size: 20px;
+}
+
+
+section .main{
+	margin-bottom: 30%;
+}
+
+/*Formulario boletín*/
+#boletin{	
+	padding: 15px;
+	color: #fff;
+	background: #24282b;	
+}
+
+#boletin h1{
+	float: left;
+}
+
+#boletin form{
+	float: right;
+	margin-top: 15px;	
+}
+
+#boletin input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;	
+}
+
+/*Cajas*/
+#cajas{
+	margin-top: 20px;
+	margin-bottom: 45%;
+	background-color: #24282b;	
+}
+
+#cajas .caja{
+	float: left;
+	text-align: center;
+	width: 33%;
+	padding: 100px;
+}
+
+#cajas .caja img{
+	width: 150px;		
+}
+
+/*Lateral*/
+aside#lateral{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+.oscuro{
+	padding: 15px;
+	background-color: #35424a;
+	color: #fff;
+	margin-top: 10px;	
+	margin-bottom: 10px;
+}
+
+/*Main-col*/
+article#main-col{
+	float: left;
+	width: 65%;
+	margin-bottom: 10%;	 
+}
+
+/*Footer o pie de pagina*/
+footer{		
+	padding: 15px;
+	margin-top: 0px;
+	width: 100%;	
+	color: #fff;
+    background-color: black;     
+}
+
+.social-icon{
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;    
+    border-radius:100%;
+    background: #144564;
+    transition: opacity .4s ease-in;
+    -moz-transition: opacity .4s ease-in;
+    -webkit-transition: opacity .4s ease-in;
+    -o-transition: opacity .4s ease-in;
+    -ms-transition: opacity .4s ease-in;
+
+}
+.social-icon:hover{
+    text-decoration: none; 
+    opacity: 0.7;
+    transition: opacity .4s ease-in;
+    -moz-transition: opacity .4s ease-in;
+    -webkit-transition: opacity .4s ease-in;
+    -o-transition: opacity .4s ease-in;
+    -ms-transition: opacity .4s ease-in;
+    
+}
+.social-icon:focus{
+    outline: none;
+}
+
+.footer-social-icons a{
+    color: #ffff;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+/*Estilos de registro*/
+#container-page-registration{
+    background: url(../assets/img/umg.jpg) no-repeat center center fixed;        
+}
+#registrarse{
+    min-height: 400px;
+    background-color: rgba(255,255,255,.95);
+    padding-top: 70px;    
+}
+
+#container-form{
+    width: 100%;
+    padding: 40px;
+    background-color: #333;
+    border-radius: 7px;
+    margin-bottom:  30%;
+}
+
+ body.modal-open { overflow: hidden; } 

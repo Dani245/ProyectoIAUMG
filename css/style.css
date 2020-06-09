@@ -1,0 +1,37 @@
+#add-artic,
+#del-art,
+#add-categori,
+#del-categori,
+#add-facu,
+#del-facu,
+#add-admin,
+#del-admin,
+#del-pedido{
+    border: 1px solid #e0e1e1 !important;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/*..............Buscador.................*/
+input[type="search"]{
+    width: 100px; /*ancho por defecto*/
+    background: #ededed url('search-icon.png') no-repeat 9px center; /*icono lupa*/
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+    float:right;
+    position: relative;
+    
+
+}
+input[type="search"]:focus{
+    width: 300px; /*tamaño del boton buscar al hacer click*/
+    padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+    color: #000;
+    background-color: #FFF;
+}
+
